@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+body {
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: black;
+    text-align: left;
+    padding: 20px 120px;
+    font-size: 30px       
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a img {
+    filter: invert(1);
+}
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 0px 3px 6px black;
+    text-align: right;
+    color: white;
+    padding: 120px;
+}
+header h1{
+    font-size: 60px;
+}
+header h3{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+#ubicacion {
+    margin: 100px;
+}
+#ubicacion img {
+    width: 30%;
+}
+#ubicacion h2{
+    font-size: 40px;
+    margin: 40px 0px 20px 0px;
+}
+#ubicacion p {
+    font-size: 30px;
+}
+
+#Proxima-Charla {
+    background-color: #a4452c;
+    padding: 100px;
+    color: white;
+}
+#Proxima-Charla .wrapper {
+    width: 800px;
+    margin: auto;
+  }
+
+img {
+    width: 25%;
+}
+
+.texto {
+    width: 70%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+img, .texto {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Eventos */
+#eventos {
+    text-align: center;
+    padding: 20px;
+}
+
+#eventos h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#eventos .Eventos1 img {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+#eventos .Eventos1 h3 {
+    font-size: 18px;
+   
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+/*footer*/
+footer {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 40px;
+}
+
+i {
+    font-size: 40px;
+}
+
+ 
+
+
